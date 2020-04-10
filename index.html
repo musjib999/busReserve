@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>Bus Reservation</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="./img/bus.png" width="30px">
+            </a>
+            <a class="navbar-brand" href="#">
+                <h5>Bus Reservation</h5>
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse"
+                data-target="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reserve now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">packages and Promotion</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="sec1">
+        <article id="article-1">
+            <h2 id="first-heading">Reserve a Bus</h2>
+            <form action="" class="form-container">
+                <div class="form-group">
+                    <label for="sel1">From:</label>
+                    <select class="form-control w-75" class="sel1" required>
+                        <option class="opt1"></option>
+                        <option class="opt2"></option>
+                    </select>
+                    <label for="sel1">To:</label>
+                    <select class="form-control w-75" class="sel2" required>
+                        <option class="opt1"></option>
+                        <option class="opt2"></option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sel1">depert on:</label>
+                    <input type="date" class="form-control w-75" required>
+    
+                    <label for="sel1">Passengers:</label>
+                    <input type="number" class="form-control w-75" required>
+                </div>
+                <div class="form-group">
+                    <label for="sel1">depert time:</label>
+                    <input type="time" class="form-control w-75" required>
+    
+                    <label for="sel1">Bus Type:</label>
+                    <select class="form-control w-75" required>
+                        <option>Makapolo</option>
+                        <option>Yellow Bus</option>
+                        <option>School Bus</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn btn-dark bg-dark">
+            </form>
+           
+        </article>
+        <article id="article-2">
+            <img src="img/bus1.jpg" width="100%" height="100%" id="bus">
+        </article>
+    </section>
+    
+    <h2 style="text-align: center;" class="mt-2">About Us</h2>
+    <section id="sec2">
+        <div class="main-1">
+            <img src="img/person-hand-on-steering-wheel-977213.jpg" id="hand" width="100%">
+        </div>
+        <div class="main-2">
+            <h2>Welcome To Our Site</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione earum voluptate accusamus qui eum,
+                ab
+                magni. Aut, saepe. Laborum, minus nihil perferendis blanditiis vero labore, saepe excepturi a dignissimos
+                quae alias
+                quo fugit nam beatae reprehenderit asperiores itaque ullam unde consectetur. Facere iste, magnam repellat
+                porro
+                dolorum perspiciatis. Nostrum.....
+            </p>
+            <a href="about.html" class="btn btn-dark bg-dark">More</a>
+        </div>
+    </section>
+    <section id="services">
+        <div class="wrapper">
+            <h1>Services</h1>
+            <p></p>
+            <ul>
+                <li>
+                    <img src="img/bus-stop.png" />
+                    <a href="#">Bus<br />Reservation</a>
+                </li>
+                <li>
+                    <img src="img/medal.png" />
+                    <a href="#">Get some<br />promos</a>
+                </li>
+                <li>
+                    <img src="img/wallet.png" />
+                    <a href="#">Wallet<br />availability</a>
+                </li>
+            </ul>
+        </div>
+        <div class="floatingActionButtonLogout" onclick="Logout()">Logout</div>
+        <footer>
+            <p>Copyright 2020 Musa Jibril</p>
+        </footer>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    margin: 0;
+    padding: 0;
+}
+#first-heading{
+    margin: 10px;
+}
+
+/* .form-group{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+} */
+#sec1{
+    margin: 10px 20px 5px 20px;
+    
+    }
+#article-1{
+    background-color: #425561;
+    border-radius:8px 8px 0 0;
+}
+#bus{
+    border-radius: 0 0 8px 8px;
+}
+h5{
+    font-size: 10px;
+}
+article{
+    width: 100%;
+    color: white;
+}
+.form-container{
+    padding: 15px;
+    color: white;
+}
+input{
+    background-color: white;
+}
+label{
+    color: honeydew;
+}
+#sec2{
+    background: #424141ab;
+    margin: 30px 20px 5px 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+#hand{
+    width: 100%;
+    border-radius: 8px;
+}
+.main-1{
+    flex: 1;
+}
+.main-2{
+    margin: 30px;
+    flex: 3;
+    color: white;
+}
+#services h1{
+    margin: 20px 30px;
+}
+#services ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+
+#services img {
+  width: 60%;
+  margin: 20px 20%; }
+
+#services li {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%; }
+
+#services a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #032f3e; }
+  #services a:hover {
+    color: #3e1203; }
+@media (min-width: 720px) {
+    #sec1{
+    display: flex;
+    margin: 10px 20px 5px 20px;
+    
+    }
+    #sec2{
+        display: flex;
+    }
+    #article-1{
+        background-color: #425561;
+        border-radius: 8px 0 0 8px;
+    
+    }
+    #bus{
+        border-radius: 0 8px 8px 0;
+    }
+}
+.floatingActionButtonLogout{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    Background-color: grey;
+    margin-left: 90%;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding: 27px 0 0 0;
+    box-shadow: 1px #425561;
+}
+.floatingActionButtonLogin{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    Background-color: grey;
+    margin-left: 90%;
+    margin-top: 30%;
+    color: white;
+    text-align: center;
+    padding: 27px 0 0 0;
+    box-shadow: 1px #425561;
+}
+@media(max-width: 620px){
+    .floatingActionButtonLogin{
+        margin-left: 80%;
+        margin-top: 80%;
+    }
+    .floatingActionButtonLogout{
+        margin-left: 80%;
+    }
+}
+footer{
+    margin: 30px 0 0 0;
+    padding: 50px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+.container-1{
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+.side-1{
+    width: 100px;
+    height: 100px;
+    Background-color: red;
+    flex: 1;
+}
+.side-2{
+    width: 100px;
+    height: 100px;
+    Background-color: blue;
+    flex: 1;
+}
+.side-3{
+    width: 100px;
+    height: 100px;
+    Background-color: green;
+    flex: 1;
+}
+#sign-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-container{
+    height: 400px;
+    max-width: 500px;
+    margin: 40px auto 40px auto;
+    background: url(../img/apple-bus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+@media(min-width: 620px){
+    .reg-container{
+        height: 400px;
+        max-width: 700px;
+        /* margin: 40px 20px 40px 20px; */
+        background: url(../img/apple-bus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+}
